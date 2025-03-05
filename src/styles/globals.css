@@ -1,0 +1,15 @@
+/*@import "tailwindcss"*/
+/*source("../../src");*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+    font-family: "Quicksand", serif;;
+  }
+}
