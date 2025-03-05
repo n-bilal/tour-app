@@ -4,7 +4,7 @@ import {DarkThemeToggle, Dropdown, DropdownItem} from "flowbite-react";
 import Link from "next/link";
 import Image from "next/image";
 import { Button, Card, Checkbox, Label, TextInput } from "flowbite-react";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 //const Logo = () => (
 const Home = () => {
@@ -19,6 +19,10 @@ const Home = () => {
     "January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December",
   ];
+
+  useEffect(() => {
+    // Client-side only code here
+  }, []);
 
   const [selectedDestination, setSelectedDestination] = useState("Select destination"); // Default label
 
